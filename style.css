@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #272C3D;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    gap: 670px;
+}
+
+.df {
+    display: flex;
+    gap: 40px;
+}
+
+input {
+    background-color: #404864;
+}
+
+select {
+    color: white;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.ji {
+    color: white;
+    font-family: Quantico;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    transition: 0.6s;
+}
+
+.ji:hover {
+    color: #FF9C28;
+    cursor: pointer;
+
+}
+
+.section-one {
+    background-image: url(./img/95254beaaafd285b4e172b29b2bb169b461afa6d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 554px;
+}
+
+.section-two {
+    background-color: black;
+    height: 1400px;
+}
+
+.as {
+    margin-left: 91px;
+    position: relative;
+    top: -70px;
+}
+
+.s {
+    position: relative;
+    right: 70px;
+}
+
+.bu {
+    width: 1189px;
+    height: 928px;
+    background-color: #1B1E27;
+    margin: 0 auto;
+    padding-top: 61px;
+    padding-left: 245px;
+
+}
+
+h2 {
+    color: white;
+    font-family: Quantico;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.c {
+    margin: 50px;
+}
+
+.q {
+    display: flex;
+    gap: 50px;
+}
+
+h3 {
+    color: white;
+    font-family: Quantico;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+
+}
+
+.pgl {
+    margin-top: 61px;
+}
+
+.pi {
+    color: white;
+    width: 323px;
+    font-family: Quantico;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+footer {
+    background-color: #272C3D;
+    width: 1440px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 870px;
+
+}
+
+.i {
+    width: 38px;
+    margin-left: 30px;
+}
